@@ -1,0 +1,25 @@
+.Tudo{
+    height: 380px;
+    width: 250px;
+    border: solid 1px;
+}
+.BtnPadrao button{
+    background:rgb(196, 192, 192);
+    color: black;
+    border: none;  
+}
+.BtnPadrao div button:last-child{
+    background: blue;
+    color: white;
+}
+.BtnPadrao div:last-child button:nth-child(3){
+    visibility: hidden;
+}
+.BtnGrande button{
+    color: white;
+    background: tomato;
+}
+.BtnGrande button:last-child{
+
+    background: yellowgreen;
+}
