@@ -3,11 +3,9 @@ import './btnPadrao.css';
 
 class BtnPadrao extends React.Component {
 
-
   handleClick = () => {
     this.props.onClick(this.props.text)
   };
-
 
   render() {
     return (
@@ -15,7 +13,4 @@ class BtnPadrao extends React.Component {
     );
   }
 }
-
 export default BtnPadrao;
-
-

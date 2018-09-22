@@ -3,11 +3,9 @@ import './btnOperacao.css';
 
 class ButtonOperation extends React.Component {
 
-
   handleClick = () => {
     this.props.onClick(this.props.text)
   };
-
 
   render() {
     return (
@@ -15,5 +13,4 @@ class ButtonOperation extends React.Component {
     );
   }
 }
-
 export default ButtonOperation;
